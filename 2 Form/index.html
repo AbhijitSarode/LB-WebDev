@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h1>Welcome to Codehelp</h1>
+    <h3>Contach Us Form</h3>
+    <form>
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" placeholder="Enter your email" required>
+        <br>
+        <label for="phone">Phone: </label>
+        <input type="tel" name="phone" id="phone" placeholder="Enter your phone number" required>
+        <br>
+        <label for="gender">Gender: </label>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+        <label for="dob">Date of Birth: </label>
+        <input type="date" name="dob" id="dob" required>
+        <br>
+        <label for="rating">Rating: </label>
+        1 <input type="radio" name="rating" id="rating">
+        2 <input type="radio" name="rating" id="rating">
+        3 <input type="radio" name="rating" id="rating">
+        4 <input type="radio" name="rating" id="rating">
+        5 <input type="radio" name="rating" id="rating">
+        <br>
+        <label for="message">Enter Your Message: </label>
+        <br>
+        <textarea name="message" id="message" cols="30" rows="5" placeholder="Enter your message" required></textarea>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="button" value="Reset">
+    </form>
+    <div id="social">
+        <img src="./youtube.png" alt="">
+        <img src="./instagram.png" alt="">
+        <img src="./telegram.png" alt="">
+    </div>
+</body>
+</html>
